@@ -1,0 +1,6 @@
+framework module AgileTag {
+  umbrella header "AgileTag-umbrella.h"
+
+  export *
+  module * { export * }
+}

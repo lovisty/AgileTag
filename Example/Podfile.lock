@@ -1,0 +1,16 @@
+PODS:
+  - AgileTag (0.1.0)
+
+DEPENDENCIES:
+  - AgileTag (from `../`)
+
+EXTERNAL SOURCES:
+  AgileTag:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AgileTag: c9fd5b483e166c9609c298bbbcb542dfee75d670
+
+PODFILE CHECKSUM: 30be45bd5bc25ab681b199214a6fa3f61e1108dd
+
+COCOAPODS: 1.2.0

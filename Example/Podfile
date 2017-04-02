@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AgileTag_Example' do
+  pod 'AgileTag', :path => '../'
+
+  target 'AgileTag_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

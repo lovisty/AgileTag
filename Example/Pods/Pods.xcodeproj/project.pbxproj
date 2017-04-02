@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108AB661CC3EFBEF7750F130682FE5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1536A211FBC8722F090EF4530B575496 /* Pods-AgileTag_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 658463483BC3B9379C413C8025335723 /* Pods-AgileTag_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161112AB873E4DC38B0658FC58D6172B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		369164DB5CB2B4EDF6C6DE106B9BE30A /* Pods-AgileTag_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B769635C6E7610FED77B42507E5B37F /* Pods-AgileTag_Example-dummy.m */; };
+		46E55426CA5A8750BF5725BEF7C56B7C /* AgileTag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9784954DE3D1BDA4410A0CDC7995E7A0 /* AgileTag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F4B7552938B0003E0530E8FDAA4D336 /* AgileTag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FDA322C06F801A516E135A7634BC9EF /* AgileTag-dummy.m */; };
+		717C05FDAB3EA92F97B213A3E927600E /* Pods-AgileTag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CB306A957BD2CB04CEB2B3E8EB221 /* Pods-AgileTag_Tests-dummy.m */; };
+		8F688308BFED583510AC86C5A6968906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EB70852518558DAD338422D9C760FF14 /* Pods-AgileTag_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E90E593293744BDBD69F42E0F74329D2 /* Pods-AgileTag_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE820674A321217DB43F9413A834EDF2 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F5365570ADEB7E1D7E674A66A9CABACA /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C9C718F8F38BBC87AD676246FA05752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB56BAC69C0C716694162C7E918BAD3;
+			remoteInfo = AgileTag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09C92DE4C3B8DF798C572F10A1A58316 /* Pods-AgileTag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileTag_Tests.modulemap"; sourceTree = "<group>"; };
+		0AEB20B2F5CEEEF54E74A30D9D993299 /* Pods-AgileTag_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Example-resources.sh"; sourceTree = "<group>"; };
+		28C619769D491E4206C9C8D356A65589 /* Pods-AgileTag_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Tests-resources.sh"; sourceTree = "<group>"; };
+		30D2DE84AA0562619FEA113FCEACA58E /* Pods-AgileTag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		355B6B8837952D6D21F793126F2835A9 /* AgileTag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AgileTag.modulemap; sourceTree = "<group>"; };
+		3B769635C6E7610FED77B42507E5B37F /* Pods-AgileTag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileTag_Example-dummy.m"; sourceTree = "<group>"; };
+		40475108FC70AD0D7038664758CFF063 /* Pods_AgileTag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileTag_Tests.framework; path = "Pods-AgileTag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4077256B509DFA5E0D05029C999B6334 /* Pods-AgileTag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileTag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DADBF1D432AF7DD06E33603E599D59A /* Pods-AgileTag_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileTag_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		658463483BC3B9379C413C8025335723 /* Pods-AgileTag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileTag_Example-umbrella.h"; sourceTree = "<group>"; };
+		6ACDAD3846BF7BEEC08B0B668E24BBA5 /* AgileTag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileTag.xcconfig; sourceTree = "<group>"; };
+		7F6D174BF6444BD6A2BB4CC10F8319AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDA322C06F801A516E135A7634BC9EF /* AgileTag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileTag-dummy.m"; sourceTree = "<group>"; };
+		8440D7C0771D1A8D327C9260203579AC /* Pods-AgileTag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C2CB306A957BD2CB04CEB2B3E8EB221 /* Pods-AgileTag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileTag_Tests-dummy.m"; sourceTree = "<group>"; };
+		8F86706BF53136C1BF389D7DB587A3C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9784954DE3D1BDA4410A0CDC7995E7A0 /* AgileTag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileTag-umbrella.h"; sourceTree = "<group>"; };
+		9C84295ECA64BEF91F98CEC5A5238684 /* Pods-AgileTag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A13BB9FBDA0EB0850BA3086B19000403 /* Pods-AgileTag_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A5A5ACFCB4468324FC94985C24917CC6 /* Pods-AgileTag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileTag_Example.modulemap"; sourceTree = "<group>"; };
+		ACBB81BA8DFEAE01A00A7B221FEBDE6A /* Pods-AgileTag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileTag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AD09E1B2072620469DAB6CEFF7D17410 /* Pods-AgileTag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileTag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B42552B2EF4822CC5C002A765ADDAEFD /* AgileTag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileTag-prefix.pch"; sourceTree = "<group>"; };
+		B502B1F2EB02F0C1CDAB2DC9263A18DA /* Pods_AgileTag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileTag_Example.framework; path = "Pods-AgileTag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75F0CBDDC36B39725B070E5C0D0B8FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD1E4BEF8676765D8F67A76EEB4B75C2 /* Pods-AgileTag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E90E593293744BDBD69F42E0F74329D2 /* Pods-AgileTag_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileTag_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EB797B2C874D9F1D88AB5AB00F52A596 /* Pods-AgileTag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5365570ADEB7E1D7E674A66A9CABACA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgileTag.framework; path = AgileTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21DA3D66BD2A4F44AE914E031588AF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108AB661CC3EFBEF7750F130682FE5E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374A53CBE45FE597656B354EEA1F7A66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161112AB873E4DC38B0658FC58D6172B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70455A11CE7AC751DE9419BB96354415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F688308BFED583510AC86C5A6968906 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		102B4933FEA0E6528FF8E665200DACD2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7552258E464C4A0593791C25397FD3F8 /* Pods-AgileTag_Example */,
+				C5C1AFF06A9A19F5ECE7922FBC81690E /* Pods-AgileTag_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C3011A13DE60E8EE6E4497710615F7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E6056368A47CF0F2DB956FA088F2D5A /* AgileTag */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2E6056368A47CF0F2DB956FA088F2D5A /* AgileTag */ = {
+			isa = PBXGroup;
+			children = (
+				8BD0B515838FB23030EE6E3C95F3822F /* AgileTag */,
+				9B7F837E79148B9EE5C85727074001EC /* Support Files */,
+			);
+			name = AgileTag;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7552258E464C4A0593791C25397FD3F8 /* Pods-AgileTag_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7F6D174BF6444BD6A2BB4CC10F8319AA /* Info.plist */,
+				A5A5ACFCB4468324FC94985C24917CC6 /* Pods-AgileTag_Example.modulemap */,
+				AD09E1B2072620469DAB6CEFF7D17410 /* Pods-AgileTag_Example-acknowledgements.markdown */,
+				4DADBF1D432AF7DD06E33603E599D59A /* Pods-AgileTag_Example-acknowledgements.plist */,
+				3B769635C6E7610FED77B42507E5B37F /* Pods-AgileTag_Example-dummy.m */,
+				9C84295ECA64BEF91F98CEC5A5238684 /* Pods-AgileTag_Example-frameworks.sh */,
+				0AEB20B2F5CEEEF54E74A30D9D993299 /* Pods-AgileTag_Example-resources.sh */,
+				658463483BC3B9379C413C8025335723 /* Pods-AgileTag_Example-umbrella.h */,
+				30D2DE84AA0562619FEA113FCEACA58E /* Pods-AgileTag_Example.debug.xcconfig */,
+				8440D7C0771D1A8D327C9260203579AC /* Pods-AgileTag_Example.release.xcconfig */,
+			);
+			name = "Pods-AgileTag_Example";
+			path = "Target Support Files/Pods-AgileTag_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1C3011A13DE60E8EE6E4497710615F7C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BE0CFDA72A5EE256311012F528A12775 /* Products */,
+				102B4933FEA0E6528FF8E665200DACD2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85913D784EAC48C140BEF891A5DAAD80 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5365570ADEB7E1D7E674A66A9CABACA /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8BD0B515838FB23030EE6E3C95F3822F /* AgileTag */ = {
+			isa = PBXGroup;
+			children = (
+				85913D784EAC48C140BEF891A5DAAD80 /* Classes */,
+			);
+			name = AgileTag;
+			path = AgileTag;
+			sourceTree = "<group>";
+		};
+		9B7F837E79148B9EE5C85727074001EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				355B6B8837952D6D21F793126F2835A9 /* AgileTag.modulemap */,
+				6ACDAD3846BF7BEEC08B0B668E24BBA5 /* AgileTag.xcconfig */,
+				7FDA322C06F801A516E135A7634BC9EF /* AgileTag-dummy.m */,
+				B42552B2EF4822CC5C002A765ADDAEFD /* AgileTag-prefix.pch */,
+				9784954DE3D1BDA4410A0CDC7995E7A0 /* AgileTag-umbrella.h */,
+				C75F0CBDDC36B39725B070E5C0D0B8FA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AgileTag";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE0CFDA72A5EE256311012F528A12775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */,
+				B502B1F2EB02F0C1CDAB2DC9263A18DA /* Pods_AgileTag_Example.framework */,
+				40475108FC70AD0D7038664758CFF063 /* Pods_AgileTag_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5C1AFF06A9A19F5ECE7922FBC81690E /* Pods-AgileTag_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8F86706BF53136C1BF389D7DB587A3C4 /* Info.plist */,
+				09C92DE4C3B8DF798C572F10A1A58316 /* Pods-AgileTag_Tests.modulemap */,
+				4077256B509DFA5E0D05029C999B6334 /* Pods-AgileTag_Tests-acknowledgements.markdown */,
+				ACBB81BA8DFEAE01A00A7B221FEBDE6A /* Pods-AgileTag_Tests-acknowledgements.plist */,
+				8C2CB306A957BD2CB04CEB2B3E8EB221 /* Pods-AgileTag_Tests-dummy.m */,
+				A13BB9FBDA0EB0850BA3086B19000403 /* Pods-AgileTag_Tests-frameworks.sh */,
+				28C619769D491E4206C9C8D356A65589 /* Pods-AgileTag_Tests-resources.sh */,
+				E90E593293744BDBD69F42E0F74329D2 /* Pods-AgileTag_Tests-umbrella.h */,
+				EB797B2C874D9F1D88AB5AB00F52A596 /* Pods-AgileTag_Tests.debug.xcconfig */,
+				DD1E4BEF8676765D8F67A76EEB4B75C2 /* Pods-AgileTag_Tests.release.xcconfig */,
+			);
+			name = "Pods-AgileTag_Tests";
+			path = "Target Support Files/Pods-AgileTag_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		684FB143537E4B102352AB3FA1CB59D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB70852518558DAD338422D9C760FF14 /* Pods-AgileTag_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940A551D2741F14C9CE0730FD6FEE48D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E55426CA5A8750BF5725BEF7C56B7C /* AgileTag-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A4FB5B55A259564B253BE399E48021 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1536A211FBC8722F090EF4530B575496 /* Pods-AgileTag_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A95C7FFE03DE9AA25CC1B503558CA7B /* Pods-AgileTag_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064E1C38E252F5C798054CAB7D3855EB /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Example" */;
+			buildPhases = (
+				7594C220A8B8C6B10BF871F51E24F46D /* Sources */,
+				70455A11CE7AC751DE9419BB96354415 /* Frameworks */,
+				A5A4FB5B55A259564B253BE399E48021 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550128BA506613E23618D04ACD85CCED /* PBXTargetDependency */,
+			);
+			name = "Pods-AgileTag_Example";
+			productName = "Pods-AgileTag_Example";
+			productReference = B502B1F2EB02F0C1CDAB2DC9263A18DA /* Pods_AgileTag_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD20F0D3C257D3924D1AE3CC94D67A71 /* Pods-AgileTag_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B17C850C5D1579AB8E1A6D3B4462ABE /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Tests" */;
+			buildPhases = (
+				61DFD3A2E2336BFA21DF792D513B1426 /* Sources */,
+				374A53CBE45FE597656B354EEA1F7A66 /* Frameworks */,
+				684FB143537E4B102352AB3FA1CB59D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AgileTag_Tests";
+			productName = "Pods-AgileTag_Tests";
+			productReference = 40475108FC70AD0D7038664758CFF063 /* Pods_AgileTag_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFB56BAC69C0C716694162C7E918BAD3 /* AgileTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35D6EDAB2C0A65F79CA92A2C89705599 /* Build configuration list for PBXNativeTarget "AgileTag" */;
+			buildPhases = (
+				1ACC4D5C6ABC86EBA3A3226828C0BBE2 /* Sources */,
+				21DA3D66BD2A4F44AE914E031588AF34 /* Frameworks */,
+				940A551D2741F14C9CE0730FD6FEE48D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileTag;
+			productName = AgileTag;
+			productReference = FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BE0CFDA72A5EE256311012F528A12775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB56BAC69C0C716694162C7E918BAD3 /* AgileTag */,
+				3A95C7FFE03DE9AA25CC1B503558CA7B /* Pods-AgileTag_Example */,
+				DD20F0D3C257D3924D1AE3CC94D67A71 /* Pods-AgileTag_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ACC4D5C6ABC86EBA3A3226828C0BBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F4B7552938B0003E0530E8FDAA4D336 /* AgileTag-dummy.m in Sources */,
+				FE820674A321217DB43F9413A834EDF2 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61DFD3A2E2336BFA21DF792D513B1426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717C05FDAB3EA92F97B213A3E927600E /* Pods-AgileTag_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7594C220A8B8C6B10BF871F51E24F46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369164DB5CB2B4EDF6C6DE106B9BE30A /* Pods-AgileTag_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550128BA506613E23618D04ACD85CCED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgileTag;
+			target = DFB56BAC69C0C716694162C7E918BAD3 /* AgileTag */;
+			targetProxy = 4C9C718F8F38BBC87AD676246FA05752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09EC40F9935CFDC7EA5CBE51336A460F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB797B2C874D9F1D88AB5AB00F52A596 /* Pods-AgileTag_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileTag_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileTag_Tests/Pods-AgileTag_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AgileTag_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1BF94F6B266745C2C913E45C7158B7CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD1E4BEF8676765D8F67A76EEB4B75C2 /* Pods-AgileTag_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileTag_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileTag_Tests/Pods-AgileTag_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AgileTag_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ECD59645EE5804DEC42E009E08A644E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACDAD3846BF7BEEC08B0B668E24BBA5 /* AgileTag.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AgileTag/AgileTag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileTag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AgileTag/AgileTag.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AgileTag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7589557D76757281FDF63B37860C37DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ACDAD3846BF7BEEC08B0B668E24BBA5 /* AgileTag.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AgileTag/AgileTag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileTag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AgileTag/AgileTag.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AgileTag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B43C62C5D7175F1C5504B5D23C092370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8440D7C0771D1A8D327C9260203579AC /* Pods-AgileTag_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileTag_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileTag_Example/Pods-AgileTag_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AgileTag_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECD6401590B437410C8665CE2A68667B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D2DE84AA0562619FEA113FCEACA58E /* Pods-AgileTag_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AgileTag_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AgileTag_Example/Pods-AgileTag_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AgileTag_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064E1C38E252F5C798054CAB7D3855EB /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECD6401590B437410C8665CE2A68667B /* Debug */,
+				B43C62C5D7175F1C5504B5D23C092370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35D6EDAB2C0A65F79CA92A2C89705599 /* Build configuration list for PBXNativeTarget "AgileTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD59645EE5804DEC42E009E08A644E /* Debug */,
+				7589557D76757281FDF63B37860C37DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B17C850C5D1579AB8E1A6D3B4462ABE /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09EC40F9935CFDC7EA5CBE51336A460F /* Debug */,
+				1BF94F6B266745C2C913E45C7158B7CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "YFAgileTag.h"
+#import "YFAgileTagView.h"
+#import "YFBaseAnimation.h"
+#import "YFTagItemView.h"
 
 FOUNDATION_EXPORT double AgileTagVersionNumber;
 FOUNDATION_EXPORT const unsigned char AgileTagVersionString[];

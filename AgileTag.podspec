@@ -1,42 +1,33 @@
 #
-# Be sure to run `pod lib lint AgileTag.podspec' to ensure this is a
-# valid spec before submitting.
+# Be sure to run `pod lib lint YFPhotoAlbum.podspec' to ensure this is a
+# valid spec and remove all comments before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
+# Any lines starting with a # are optional, but encouraged
+#
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'AgileTag'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AgileTag.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.name             = "AgileTag"
+  s.version          = "1.0"
+  s.summary          = "Easy to add or remove tag with animation.."
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       灵活的新增或者删除tag，支持cell上高度自动计算，tag标签自适应内容的长度等...
+                       * Markdown format.
+                       * Don't worry about the indent, we strip it!
                        DESC
+  s.homepage         = "https://github.com/lovisty/AgileTag"
+  s.license          = 'MIT'
+  s.author           = { "Zhao Yafei" => "nihao1992@163.com" }
+  s.source           = { :git => "https://github.com/lovisty/AgileTag.git", :tag => s.version.to_s }
 
-  s.homepage         = 'https://github.com/YaFei/AgileTag'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'YaFei' => 'zhaoyafei@boohee.com' }
-  s.source           = { :git => 'https://github.com/YaFei/AgileTag.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.platform     = :ios, '7.0'
+  s.requires_arc = true
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'AgileTag/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AgileTag' => ['AgileTag/Assets/*.png']
-  # }
+  s.source_files = 'AgileTag/Classes/*.{h,m}'
+  s.resources = "AgileTag/Assets/*.png"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
+

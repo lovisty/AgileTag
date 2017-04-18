@@ -1,5 +1,5 @@
 PODS:
-  - AgileTag (0.1.0)
+  - AgileTag (1.0)
 
 DEPENDENCIES:
   - AgileTag (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AgileTag: c9fd5b483e166c9609c298bbbcb542dfee75d670
+  AgileTag: cadd807f9e1c2f8dc49e3880f2f2632c5fd6a8c4
 
 PODFILE CHECKSUM: 30be45bd5bc25ab681b199214a6fa3f61e1108dd
 

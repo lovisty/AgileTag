@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "YFAgileTag.h"
 #import "YFAgileTagView.h"
 #import "YFBaseAnimation.h"
 #import "YFTagItemView.h"

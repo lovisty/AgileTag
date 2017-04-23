@@ -9,8 +9,7 @@
 
 #import "YFViewController.h"
 #import "YFDataSourceMode.h"
-#import "YFAgileTag.h"
-
+#import "YFAgileTagCell.h"
 static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
 
 @interface YFViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -90,27 +89,14 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
     if (indexPath.section == 0) {
         YFAgileTagCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierAstaticism];
         __weak __typeof(self) weakSelf = self;
-        __weak __typeof(cell) weakCell = cell;
         cell.tagView.refreshBlock = ^(CGFloat height){
             __strong __typeof(self) strongSelf = weakSelf;
-            __weak __typeof(cell) strongCell = weakCell;
             strongSelf.astaticismHeight = height;
-            
-            CGRect cellFrame=[strongCell frame];
-            cellFrame.origin=CGPointMake(0,25);
-            cellFrame.size.height = (self.astaticismHeight + 20 <= 50)?50:self.astaticismHeight + 20;
-            [strongCell setFrame:cellFrame];
         };
         
         cell.tagView.didClickedTagBlock = ^(YFTagItemView *button) {
             __strong __typeof(self) strongSelf = weakSelf;
-            UIButton *tagItem = (UIButton *)button;
-            [strongSelf.model.selectedArray removeObject:tagItem.currentTitle];
-            YFAgileTagCell *firstCell = [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-            [firstCell.tagView removeTagWithTitle:tagItem.currentTitle WithAnimation:YES completed:^{
-                __strong __typeof(self) strongSelf = weakSelf;
-                [strongSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationNone];
-            }];
+            [strongSelf removeTagWithObjct:(UIButton *)button];
         };
 
         [cell configData:self.model.selectedArray withType:DynamicTag];
@@ -124,24 +110,38 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
             __strong __typeof(self) strongSelf = weakSelf;
             strongSelf.totalHeight = height;
         };
-        
-        //点击 Tag
+
         cell.tagView.didClickedTagBlock = ^(YFTagItemView *button) {
             __strong __typeof(self) strongSelf = weakSelf;
-            UIButton *tagItem = (UIButton *)button;
-            if (!tagItem.selected) {
-                [strongSelf.model.selectedArray addObject:tagItem.currentTitle];
-                YFAgileTagCell *firstCell = [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-                [firstCell.tagView addTagWithTitle:tagItem.currentTitle WithAnimation:YES completed:^{
-                    __strong __typeof(self) strongSelf = weakSelf;
-                    [strongSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationNone];
-                }];
-            }
+            [strongSelf addTagWithObjct:(UIButton *)button];
         };
+        
         cell.selectedDatas = [self.model.selectedArray copy];
         [cell configData:self.model.dataArray withType:StaticTag];
         return cell;
     }
+}
+
+- (void)addTagWithObjct:(UIButton *)tagItem{
+    if (!tagItem.selected) {
+        [self.model.selectedArray addObject:tagItem.currentTitle];
+        YFAgileTagCell *firstCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        __weak __typeof(self) weakSelf = self;
+        [firstCell.tagView addTagWithTitle:tagItem.currentTitle WithAnimation:YES completed:^{
+            __strong __typeof(self) strongSelf = weakSelf;
+            [strongSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationNone];
+        }];
+    }
+}
+
+- (void)removeTagWithObjct:(UIButton *)tagItem{
+    [self.model.selectedArray removeObject:tagItem.currentTitle];
+    YFAgileTagCell *firstCell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+     __weak __typeof(self) weakSelf = self;
+    [firstCell.tagView removeTagWithTitle:tagItem.currentTitle WithAnimation:YES completed:^{
+        __strong __typeof(self) strongSelf = weakSelf;
+        [strongSelf.tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationNone];
+    }];
 }
 
 @end

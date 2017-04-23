@@ -150,12 +150,13 @@
                 [item startDismissAnimationCompleted:^{
                     [item removeFromSuperview];
                     [self updateData];
+                    completed();
                 }];
                 break;
             }
         }
     }
-    completed();
+    
 }
 
 @end

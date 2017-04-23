@@ -26,6 +26,7 @@
     animation.fromValue = @1.0;
     animation.toValue   = @0.2;
     animation.duration  = 0.3;
+    animation.fillMode  = kCAFillModeForwards;
     animation.removedOnCompletion = NO;
     return animation;
 }

@@ -7,25 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C8D668AF047AF41B92682BBF7008452 /* YFAgileTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = F3799FDE9691DEEC912984F838386009 /* YFAgileTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14E8E035951014DC227C0CF3EC741FFA /* YFTagItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E40D4732FF1FA72C18E3B974D05146 /* YFTagItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EEE9CA1372054C97E83D8E7CCDF7250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 		1536A211FBC8722F090EF4530B575496 /* Pods-AgileTag_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 658463483BC3B9379C413C8025335723 /* Pods-AgileTag_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		161112AB873E4DC38B0658FC58D6172B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		1F173B97A5FBAC12EB356D37331581FB /* YFBaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC06B50E701DEB4E47702438CDA8871 /* YFBaseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		200B9545EEA72E2DEAA775A246B78354 /* YFAgileTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00768F46C6911AEAD93CC05A7B2CF61B /* YFAgileTagView.m */; };
-		2F1D9E6055DBCA90D118EFCAEA3A5E88 /* YFBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C74F145D4E73E38BC1BE532E59DBC1 /* YFBaseAnimation.m */; };
+		1A173493C3E6CE4B6E32C1EA558DA86B /* AgileTag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4179D9A031DB12ED89F0ADEB1D1F471 /* AgileTag-dummy.m */; };
+		1C8D8992D5AFEDB87F26592AE6A78DED /* YFAgileTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA389BB295326BCC4409146EB04E53DB /* YFAgileTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3F1457D6ACCB14AE145953701AF0D0 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BBD55EB1B56A615E4B1441741F05FA /* delete@2x.png */; };
+		367FBE6F9A3E4ACA67CF41474785B606 /* AgileTag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0007CEAEECA71002DE167FD3D35AE8 /* AgileTag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		369164DB5CB2B4EDF6C6DE106B9BE30A /* Pods-AgileTag_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B769635C6E7610FED77B42507E5B37F /* Pods-AgileTag_Example-dummy.m */; };
-		5EAF9214B549DC252ED0FB6B0C653792 /* YFTagItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64198AE1695B06BD79432D3F23979FC0 /* YFTagItemView.m */; };
-		680DB31AF37E6654475E9785D8D85B4E /* AgileTag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4179D9A031DB12ED89F0ADEB1D1F471 /* AgileTag-dummy.m */; };
-		6F402767269A8D2082570F04A928531A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		417669C1E8E3E9E6BE61A27D7B35BDAD /* YFAgileTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C282E5658175F2091809881838F13 /* YFAgileTagView.m */; };
+		431348CFD62C4C8CE7B6DEB766B11E15 /* YFTagItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9DBC57ED6D8A4E4408B960588EB052 /* YFTagItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		717C05FDAB3EA92F97B213A3E927600E /* Pods-AgileTag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CB306A957BD2CB04CEB2B3E8EB221 /* Pods-AgileTag_Tests-dummy.m */; };
+		7FE59F03FFE22AD37A1BC2CF4F0FED9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 		8F688308BFED583510AC86C5A6968906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		ACF012794FA1BB3BBC2F07F320C07785 /* YFAgileTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B69E7E50604627A0DA5931A54CB66D /* YFAgileTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE0C326E2343B9AC062313999171CA84 /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0BBD55EB1B56A615E4B1441741F05FA /* delete@2x.png */; };
-		B0448FC19F69C02D7E4A1C3D1FD392C7 /* AgileTag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0007CEAEECA71002DE167FD3D35AE8 /* AgileTag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8C0CCFF3C6BCD3028AB40A1480A34B7 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF4833764EA26BC459287AD931F71DE /* add@2x.png */; };
+		9A60210D2A726FEAA8ACFDDE55AB3BB3 /* YFBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD94592F322A578DFEDF760371E721 /* YFBaseAnimation.m */; };
+		B0778494BD21944AF997BE87D1C4BB52 /* YFBaseAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 511A621ADC01D411C01CD9EF4FD3C8D7 /* YFBaseAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C427BE6A3178CA6AB6F3BB299ACCB9 /* YFTagItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E720DE5B84D74A56AAF499B1FC633F /* YFTagItemView.m */; };
+		DE89C5DF9373A36762E7A9166A88E233 /* add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF4833764EA26BC459287AD931F71DE /* add@2x.png */; };
 		EB70852518558DAD338422D9C760FF14 /* Pods-AgileTag_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E90E593293744BDBD69F42E0F74329D2 /* Pods-AgileTag_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF3570E654BFB5DC1D3FEFD9B67C5A98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,30 +32,27 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2CEE1FF3C10D6F67079BA646712B1F0B;
+			remoteGlobalIDString = 82669067DDF81376E45C7AA1B958BF27;
 			remoteInfo = AgileTag;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00768F46C6911AEAD93CC05A7B2CF61B /* YFAgileTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAgileTagView.m; sourceTree = "<group>"; };
-		04B69E7E50604627A0DA5931A54CB66D /* YFAgileTag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAgileTag.h; sourceTree = "<group>"; };
 		09C92DE4C3B8DF798C572F10A1A58316 /* Pods-AgileTag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileTag_Tests.modulemap"; sourceTree = "<group>"; };
 		0AEB20B2F5CEEEF54E74A30D9D993299 /* Pods-AgileTag_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Example-resources.sh"; sourceTree = "<group>"; };
+		0FBD94592F322A578DFEDF760371E721 /* YFBaseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFBaseAnimation.m; sourceTree = "<group>"; };
 		28C619769D491E4206C9C8D356A65589 /* Pods-AgileTag_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Tests-resources.sh"; sourceTree = "<group>"; };
 		30D2DE84AA0562619FEA113FCEACA58E /* Pods-AgileTag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3B769635C6E7610FED77B42507E5B37F /* Pods-AgileTag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AgileTag_Example-dummy.m"; sourceTree = "<group>"; };
 		40475108FC70AD0D7038664758CFF063 /* Pods_AgileTag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileTag_Tests.framework; path = "Pods-AgileTag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4077256B509DFA5E0D05029C999B6334 /* Pods-AgileTag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileTag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		49C74F145D4E73E38BC1BE532E59DBC1 /* YFBaseAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFBaseAnimation.m; sourceTree = "<group>"; };
 		4D0007CEAEECA71002DE167FD3D35AE8 /* AgileTag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgileTag-umbrella.h"; sourceTree = "<group>"; };
 		4DADBF1D432AF7DD06E33603E599D59A /* Pods-AgileTag_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileTag_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		511A621ADC01D411C01CD9EF4FD3C8D7 /* YFBaseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFBaseAnimation.h; sourceTree = "<group>"; };
 		5DF4833764EA26BC459287AD931F71DE /* add@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "add@2x.png"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		616DE10B5A8B7534123076844393F576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64198AE1695B06BD79432D3F23979FC0 /* YFTagItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFTagItemView.m; sourceTree = "<group>"; };
 		658463483BC3B9379C413C8025335723 /* Pods-AgileTag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileTag_Example-umbrella.h"; sourceTree = "<group>"; };
-		6BC06B50E701DEB4E47702438CDA8871 /* YFBaseAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFBaseAnimation.h; sourceTree = "<group>"; };
 		751DA1E3C1AC18DF568606F83D169527 /* AgileTag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AgileTag.modulemap; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F6D174BF6444BD6A2BB4CC10F8319AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,17 +64,19 @@
 		9C84295ECA64BEF91F98CEC5A5238684 /* Pods-AgileTag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A13BB9FBDA0EB0850BA3086B19000403 /* Pods-AgileTag_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AgileTag_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A5A5ACFCB4468324FC94985C24917CC6 /* Pods-AgileTag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AgileTag_Example.modulemap"; sourceTree = "<group>"; };
+		AB9DBC57ED6D8A4E4408B960588EB052 /* YFTagItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFTagItemView.h; sourceTree = "<group>"; };
 		ACBB81BA8DFEAE01A00A7B221FEBDE6A /* Pods-AgileTag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AgileTag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD09E1B2072620469DAB6CEFF7D17410 /* Pods-AgileTag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AgileTag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B04C282E5658175F2091809881838F13 /* YFAgileTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFAgileTagView.m; sourceTree = "<group>"; };
+		B1E720DE5B84D74A56AAF499B1FC633F /* YFTagItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YFTagItemView.m; sourceTree = "<group>"; };
 		B502B1F2EB02F0C1CDAB2DC9263A18DA /* Pods_AgileTag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AgileTag_Example.framework; path = "Pods-AgileTag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BBD55EB1B56A615E4B1441741F05FA /* delete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; path = "delete@2x.png"; sourceTree = "<group>"; };
 		C4179D9A031DB12ED89F0ADEB1D1F471 /* AgileTag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgileTag-dummy.m"; sourceTree = "<group>"; };
 		D366129D443D7956C15AAC5DB4B24239 /* AgileTag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgileTag.xcconfig; sourceTree = "<group>"; };
-		D4E40D4732FF1FA72C18E3B974D05146 /* YFTagItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFTagItemView.h; sourceTree = "<group>"; };
 		DD1E4BEF8676765D8F67A76EEB4B75C2 /* Pods-AgileTag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E90E593293744BDBD69F42E0F74329D2 /* Pods-AgileTag_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AgileTag_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EB797B2C874D9F1D88AB5AB00F52A596 /* Pods-AgileTag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AgileTag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F3799FDE9691DEEC912984F838386009 /* YFAgileTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAgileTagView.h; sourceTree = "<group>"; };
+		FA389BB295326BCC4409146EB04E53DB /* YFAgileTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YFAgileTagView.h; sourceTree = "<group>"; };
 		FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgileTag.framework; path = AgileTag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,20 +89,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5416DB19D1991DEB5BB79C368DC1349E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FE59F03FFE22AD37A1BC2CF4F0FED9D /* Foundation.framework in Frameworks */,
+				0EEE9CA1372054C97E83D8E7CCDF7250 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		70455A11CE7AC751DE9419BB96354415 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8F688308BFED583510AC86C5A6968906 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3F0237E55D872622882BE7AF5909033 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F402767269A8D2082570F04A928531A /* Foundation.framework in Frameworks */,
-				FF3570E654BFB5DC1D3FEFD9B67C5A98 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,21 +116,6 @@
 				C5C1AFF06A9A19F5ECE7922FBC81690E /* Pods-AgileTag_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		10C3815741F495774A8A6119CB3247E6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				04B69E7E50604627A0DA5931A54CB66D /* YFAgileTag.h */,
-				F3799FDE9691DEEC912984F838386009 /* YFAgileTagView.h */,
-				00768F46C6911AEAD93CC05A7B2CF61B /* YFAgileTagView.m */,
-				6BC06B50E701DEB4E47702438CDA8871 /* YFBaseAnimation.h */,
-				49C74F145D4E73E38BC1BE532E59DBC1 /* YFBaseAnimation.m */,
-				D4E40D4732FF1FA72C18E3B974D05146 /* YFTagItemView.h */,
-				64198AE1695B06BD79432D3F23979FC0 /* YFTagItemView.m */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		1A57D1CC83CB0BFEE1A5F28B5BEEE8C4 /* AgileTag */ = {
@@ -150,6 +133,20 @@
 				1A57D1CC83CB0BFEE1A5F28B5BEEE8C4 /* AgileTag */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		31A8C9E13EADC3EF41EFF7A15CD1EE22 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FA389BB295326BCC4409146EB04E53DB /* YFAgileTagView.h */,
+				B04C282E5658175F2091809881838F13 /* YFAgileTagView.m */,
+				511A621ADC01D411C01CD9EF4FD3C8D7 /* YFBaseAnimation.h */,
+				0FBD94592F322A578DFEDF760371E721 /* YFBaseAnimation.m */,
+				AB9DBC57ED6D8A4E4408B960588EB052 /* YFTagItemView.h */,
+				B1E720DE5B84D74A56AAF499B1FC633F /* YFTagItemView.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -178,6 +175,15 @@
 			path = "Target Support Files/Pods-AgileTag_Example";
 			sourceTree = "<group>";
 		};
+		7B15AB98A645CD74A7BA3B362DC60E52 /* AgileTag */ = {
+			isa = PBXGroup;
+			children = (
+				31A8C9E13EADC3EF41EFF7A15CD1EE22 /* Classes */,
+			);
+			name = AgileTag;
+			path = AgileTag;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -187,15 +193,6 @@
 				BE0CFDA72A5EE256311012F528A12775 /* Products */,
 				102B4933FEA0E6528FF8E665200DACD2 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		81507CF1FD0B5BBCD1E201E6E5B8CB39 /* AgileTag */ = {
-			isa = PBXGroup;
-			children = (
-				10C3815741F495774A8A6119CB3247E6 /* Classes */,
-			);
-			name = AgileTag;
-			path = AgileTag;
 			sourceTree = "<group>";
 		};
 		9160BACAE0D6809F62A6CE2138214072 /* Assets */ = {
@@ -229,7 +226,7 @@
 		BFAF3B62978AFD7DBB149D75A1294869 /* AgileTag */ = {
 			isa = PBXGroup;
 			children = (
-				81507CF1FD0B5BBCD1E201E6E5B8CB39 /* AgileTag */,
+				7B15AB98A645CD74A7BA3B362DC60E52 /* AgileTag */,
 				1B40316F95C9FF41F287411F93CFBBCB /* Resources */,
 				EF364F04124B921E56E37018917C51BF /* Support Files */,
 			);
@@ -281,18 +278,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		12C93103FC725EBDF9AFFC43396EEE92 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0448FC19F69C02D7E4A1C3D1FD392C7 /* AgileTag-umbrella.h in Headers */,
-				ACF012794FA1BB3BBC2F07F320C07785 /* YFAgileTag.h in Headers */,
-				0C8D668AF047AF41B92682BBF7008452 /* YFAgileTagView.h in Headers */,
-				1F173B97A5FBAC12EB356D37331581FB /* YFBaseAnimation.h in Headers */,
-				14E8E035951014DC227C0CF3EC741FFA /* YFTagItemView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		684FB143537E4B102352AB3FA1CB59D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -309,27 +294,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CEB7A9C7C5514E195ABDFA0FC64052E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				367FBE6F9A3E4ACA67CF41474785B606 /* AgileTag-umbrella.h in Headers */,
+				1C8D8992D5AFEDB87F26592AE6A78DED /* YFAgileTagView.h in Headers */,
+				B0778494BD21944AF997BE87D1C4BB52 /* YFBaseAnimation.h in Headers */,
+				431348CFD62C4C8CE7B6DEB766B11E15 /* YFTagItemView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CEE1FF3C10D6F67079BA646712B1F0B /* AgileTag */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 953FBB751DD981094AD0DADD2C27D0E0 /* Build configuration list for PBXNativeTarget "AgileTag" */;
-			buildPhases = (
-				A1C2AA85B09E00558FABDB59FBBEDDC9 /* Sources */,
-				F3F0237E55D872622882BE7AF5909033 /* Frameworks */,
-				12C93103FC725EBDF9AFFC43396EEE92 /* Headers */,
-				20D569D05EFCB25B56AE49061B2D45AF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AgileTag;
-			productName = AgileTag;
-			productReference = FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		3A95C7FFE03DE9AA25CC1B503558CA7B /* Pods-AgileTag_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 064E1C38E252F5C798054CAB7D3855EB /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Example" */;
@@ -346,6 +324,24 @@
 			name = "Pods-AgileTag_Example";
 			productName = "Pods-AgileTag_Example";
 			productReference = B502B1F2EB02F0C1CDAB2DC9263A18DA /* Pods_AgileTag_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82669067DDF81376E45C7AA1B958BF27 /* AgileTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9F0EA39D5AF67AE56145FA4986F123 /* Build configuration list for PBXNativeTarget "AgileTag" */;
+			buildPhases = (
+				223EB4995D9A64D631D66AB6E6253867 /* Sources */,
+				5416DB19D1991DEB5BB79C368DC1349E /* Frameworks */,
+				CEB7A9C7C5514E195ABDFA0FC64052E1 /* Headers */,
+				65F3AC44D48DC1E2C970A79E28B70A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgileTag;
+			productName = AgileTag;
+			productReference = FDC71D9CD12568328E22A41349D75A5A /* AgileTag.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD20F0D3C257D3924D1AE3CC94D67A71 /* Pods-AgileTag_Tests */ = {
@@ -386,7 +382,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CEE1FF3C10D6F67079BA646712B1F0B /* AgileTag */,
+				82669067DDF81376E45C7AA1B958BF27 /* AgileTag */,
 				3A95C7FFE03DE9AA25CC1B503558CA7B /* Pods-AgileTag_Example */,
 				DD20F0D3C257D3924D1AE3CC94D67A71 /* Pods-AgileTag_Tests */,
 			);
@@ -394,18 +390,29 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20D569D05EFCB25B56AE49061B2D45AF /* Resources */ = {
+		65F3AC44D48DC1E2C970A79E28B70A4E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C0CCFF3C6BCD3028AB40A1480A34B7 /* add@2x.png in Resources */,
-				AE0C326E2343B9AC062313999171CA84 /* delete@2x.png in Resources */,
+				DE89C5DF9373A36762E7A9166A88E233 /* add@2x.png in Resources */,
+				2F3F1457D6ACCB14AE145953701AF0D0 /* delete@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		223EB4995D9A64D631D66AB6E6253867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A173493C3E6CE4B6E32C1EA558DA86B /* AgileTag-dummy.m in Sources */,
+				417669C1E8E3E9E6BE61A27D7B35BDAD /* YFAgileTagView.m in Sources */,
+				9A60210D2A726FEAA8ACFDDE55AB3BB3 /* YFBaseAnimation.m in Sources */,
+				B5C427BE6A3178CA6AB6F3BB299ACCB9 /* YFTagItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		61DFD3A2E2336BFA21DF792D513B1426 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,60 +429,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1C2AA85B09E00558FABDB59FBBEDDC9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				680DB31AF37E6654475E9785D8D85B4E /* AgileTag-dummy.m in Sources */,
-				200B9545EEA72E2DEAA775A246B78354 /* YFAgileTagView.m in Sources */,
-				2F1D9E6055DBCA90D118EFCAEA3A5E88 /* YFBaseAnimation.m in Sources */,
-				5EAF9214B549DC252ED0FB6B0C653792 /* YFTagItemView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		550128BA506613E23618D04ACD85CCED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AgileTag;
-			target = 2CEE1FF3C10D6F67079BA646712B1F0B /* AgileTag */;
+			target = 82669067DDF81376E45C7AA1B958BF27 /* AgileTag */;
 			targetProxy = 4C9C718F8F38BBC87AD676246FA05752 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03788A675DD1FD237CDAAA68E97762CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D366129D443D7956C15AAC5DB4B24239 /* AgileTag.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AgileTag/AgileTag-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AgileTag/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AgileTag/AgileTag.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AgileTag;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		09EC40F9935CFDC7EA5CBE51336A460F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB797B2C874D9F1D88AB5AB00F52A596 /* Pods-AgileTag_Tests.debug.xcconfig */;
@@ -665,7 +630,7 @@
 			};
 			name = Release;
 		};
-		D51288FD091734032550D4B0CFD74C9D /* Release */ = {
+		DCF94C68964F33443D44BD4666FAA07A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D366129D443D7956C15AAC5DB4B24239 /* AgileTag.xcconfig */;
 			buildSettings = {
@@ -695,6 +660,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		E1E8070C93FBE4493AD158E43D49A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D366129D443D7956C15AAC5DB4B24239 /* AgileTag.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AgileTag/AgileTag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgileTag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AgileTag/AgileTag.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AgileTag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		ECD6401590B437410C8665CE2A68667B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -752,20 +748,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3B9F0EA39D5AF67AE56145FA4986F123 /* Build configuration list for PBXNativeTarget "AgileTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E8070C93FBE4493AD158E43D49A170 /* Debug */,
+				DCF94C68964F33443D44BD4666FAA07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5B17C850C5D1579AB8E1A6D3B4462ABE /* Build configuration list for PBXNativeTarget "Pods-AgileTag_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09EC40F9935CFDC7EA5CBE51336A460F /* Debug */,
 				1BF94F6B266745C2C913E45C7158B7CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		953FBB751DD981094AD0DADD2C27D0E0 /* Build configuration list for PBXNativeTarget "AgileTag" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				03788A675DD1FD237CDAAA68E97762CB /* Debug */,
-				D51288FD091734032550D4B0CFD74C9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

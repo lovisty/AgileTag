@@ -45,7 +45,7 @@
 
 - (void)configData:(NSArray *)datas withType:(TagViewType)type{
     self.tagView.type = type;
-    [self.tagView setSelectedDataArray:self.selectedDatas];
+    [self.tagView setSelectedDataArray:[self.selectedDatas mutableCopy]];
     [self.tagView setDataArray:[datas mutableCopy]];
 }
 

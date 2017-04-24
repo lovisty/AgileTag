@@ -89,7 +89,7 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
     if (indexPath.section == 0) {
         YFAgileTagCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierAstaticism];
         __weak __typeof(self) weakSelf = self;
-        cell.tagView.refreshBlock = ^(CGFloat height){
+        cell.tagView.finallyHeightBlock = ^(CGFloat height){
             __strong __typeof(self) strongSelf = weakSelf;
             strongSelf.astaticismHeight = height;
         };
@@ -106,7 +106,7 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
         YFAgileTagCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierAstaticism];
         
         __weak __typeof(self) weakSelf = self;
-        cell.tagView.refreshBlock = ^(CGFloat height) {
+        cell.tagView.finallyHeightBlock = ^(CGFloat height) {
             __strong __typeof(self) strongSelf = weakSelf;
             strongSelf.totalHeight = height;
         };

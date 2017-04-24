@@ -90,8 +90,8 @@
         }
     }
     self.totalHeight = self.rows*lastframe.size.height+(self.rows-1)*self.intervalVertical;
-    if (self.refreshBlock && self.subviews.count>0) {
-        self.refreshBlock(self.totalHeight);
+    if (self.finallyHeightBlock && self.subviews.count>0) {
+        self.finallyHeightBlock(self.totalHeight);
     }
 }
 

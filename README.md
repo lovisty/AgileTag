@@ -67,9 +67,12 @@ self.tagView.finallyHeightBlock = ^(CGFloat height){
 
 ## Author
 
-YaFei, nihao1992@163.com
-个人博客:http://blog.csdn.net/u013749108
-QQ:617267337
+YaFei, nihao1992@163.com </br>
+
+个人博客:http://blog.csdn.net/u013749108 </br>
+
+QQ:617267337 </br>
+
 ## License
 
 AgileTag is available under the MIT license. See the LICENSE file for more info.

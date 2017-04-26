@@ -90,8 +90,8 @@
         }
     }
     self.totalHeight = self.rows*lastframe.size.height+(self.rows-1)*self.intervalVertical;
-    if (self.finallyHeightBlock && self.subviews.count>0) {
-        self.finallyHeightBlock(self.totalHeight);
+    if (self.finalHeightBlock && self.subviews.count>0) {
+        self.finalHeightBlock(self.totalHeight);
     }
 }
 
@@ -126,8 +126,8 @@
 #pragma mark - ItemDidCickDelegate
 
 - (void)didClickTag:(YFTagItemView *)tag{
-    if (self.didClickedTagBlock) {
-        self.didClickedTagBlock(tag);
+    if (self.didClickTagBlock) {
+        self.didClickTagBlock(tag);
     }
 }
 

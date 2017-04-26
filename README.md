@@ -47,7 +47,7 @@ YFAgileTagView *tagView = [[YFAgileTagView alloc] initWithFrame:YOUR_FRAME];
 提供的重要接口
 ```ruby
 //返回总高度
-self.tagView.finallyHeightBlock = ^(CGFloat height){
+self.tagView.finalHeightBlock = ^(CGFloat height){
   
 };
 
@@ -61,7 +61,7 @@ self.tagView.finallyHeightBlock = ^(CGFloat height){
 
 }];
 
-注：每次调用添加或者删除tag后，会自动回调finallyHeightBlock返回添加或者删除后的高度，然后回调用completed。
+注：每次调用添加或者删除tag后，会自动回调finalHeightBlock返回添加或者删除后的高度，然后回调用completed。
 ```
 
 

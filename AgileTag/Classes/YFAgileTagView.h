@@ -8,8 +8,8 @@
 
 @class YFTagItemView;
 
-typedef void(^FinallyHeightBlock)(CGFloat height);
-typedef void(^DidClickedTagBlock)(YFTagItemView *tagItem);
+typedef void(^FinalHeightBlock)(CGFloat height);
+typedef void(^DidClickTagBlock)(YFTagItemView *tagItem);
 
 typedef enum {
     DynamicTag = 10,
@@ -32,8 +32,8 @@ typedef enum {
 @property (nonatomic, assign) NSInteger rows;  //总行数
 @property (nonatomic, assign) CGFloat totalHeight; //最后视图的高度
 
-@property (nonatomic, copy) FinallyHeightBlock finallyHeightBlock;
-@property (nonatomic, copy) DidClickedTagBlock didClickedTagBlock;
+@property (nonatomic, copy) FinalHeightBlock finalHeightBlock;
+@property (nonatomic, copy) DidClickTagBlock didClickTagBlock;
 
 - (instancetype)initWithTagType:(TagViewType)type;
 

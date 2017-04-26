@@ -89,12 +89,12 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
     if (indexPath.section == 0) {
         YFAgileTagCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierAstaticism];
         __weak __typeof(self) weakSelf = self;
-        cell.tagView.finallyHeightBlock = ^(CGFloat height){
+        cell.tagView.finalHeightBlock = ^(CGFloat height){
             __strong __typeof(self) strongSelf = weakSelf;
             strongSelf.astaticismHeight = height;
         };
         
-        cell.tagView.didClickedTagBlock = ^(YFTagItemView *button) {
+        cell.tagView.didClickTagBlock = ^(YFTagItemView *button) {
             __strong __typeof(self) strongSelf = weakSelf;
             [strongSelf removeTagWithObjct:(UIButton *)button];
         };
@@ -106,12 +106,12 @@ static NSString *identifierAstaticism = @"ReuseIdentifierAstaticism";
         YFAgileTagCell *cell = [tableView dequeueReusableCellWithIdentifier:identifierAstaticism];
         
         __weak __typeof(self) weakSelf = self;
-        cell.tagView.finallyHeightBlock = ^(CGFloat height) {
+        cell.tagView.finalHeightBlock = ^(CGFloat height) {
             __strong __typeof(self) strongSelf = weakSelf;
             strongSelf.totalHeight = height;
         };
 
-        cell.tagView.didClickedTagBlock = ^(YFTagItemView *button) {
+        cell.tagView.didClickTagBlock = ^(YFTagItemView *button) {
             __strong __typeof(self) strongSelf = weakSelf;
             [strongSelf addTagWithObjct:(UIButton *)button];
         };

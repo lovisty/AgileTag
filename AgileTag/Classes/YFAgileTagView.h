@@ -6,6 +6,8 @@
 //
 //
 
+#import <UIKit/UIKit.h>
+
 @class YFTagItemView;
 
 typedef void(^FinalHeightBlock)(CGFloat height);
@@ -15,9 +17,6 @@ typedef enum {
     DynamicTag = 10,
     StaticTag
 }TagViewType;
-
-
-#import <UIKit/UIKit.h>
 
 @interface YFAgileTagView : UIView
 

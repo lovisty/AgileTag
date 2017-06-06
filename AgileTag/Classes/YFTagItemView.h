@@ -6,6 +6,8 @@
 //  Copyright © 2017年 YaFei. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 @class YFTagItemView;
 
 @protocol ItemDidCickDelegate <NSObject>
@@ -16,8 +18,6 @@
 
 typedef void(^ShowAnimationCompleted)(void);
 typedef void(^DismissAnimationCompleted)(void);
-
-#import <UIKit/UIKit.h>
 
 @interface YFTagItemView : UIButton <CAAnimationDelegate>
 
